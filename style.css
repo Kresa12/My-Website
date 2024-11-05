@@ -180,8 +180,10 @@ td{
     }
 
     .Home div p {
-        width: 470px;
-        /* background-color: aquamarine; */
+        width: auto;
+        margin-left:  10px;
+        margin-right: 10px;
+        background-color: aquamarine;
         font-size: 17px;
         line-height: 25px;
         text-align: justify;
