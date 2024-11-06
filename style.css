@@ -327,7 +327,7 @@ td{
     .service{
         display: flex;
         flex-direction: column;
-        padding-inline: 50px;
+        padding-inline: 40px;
         padding-top: 50px;
         padding-bottom: 50px;
         height: auto;
@@ -337,7 +337,7 @@ td{
         height: auto;
         display: flex;
         flex-direction: column;
-        padding-inline: 50px;
+        padding-inline: 40px;
         padding-top: 50px ;
         padding-bottom: 50px;
     }
