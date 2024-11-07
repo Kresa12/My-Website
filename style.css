@@ -111,7 +111,7 @@ span{
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: antiquewhite;
-    height: 30vh;
+    /* height: 30vh; */
     justify-content: center;
 }
 
@@ -126,7 +126,8 @@ td{
 
 .produk_kami{
     background-color: rgb(212, 200, 125);
-    height: 60vh; 
+    /* height: 60vh;  */
+    padding-bottom: 30px;
     padding-inline: 300px;
     justify-content:space-between;
     padding-top: 50px;
@@ -144,6 +145,7 @@ td{
 .card_container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card_produk_kami{
@@ -154,6 +156,7 @@ td{
     cursor: pointer;
     position: relative;
     color: white;
+    margin-top: 10px;
     box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -260,7 +263,7 @@ td{
 
 
 
-@media(max-width: 1200px){
+@media(max-width: 768px){
 
     nav{
         flex-wrap: wrap;
