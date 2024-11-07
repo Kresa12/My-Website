@@ -240,19 +240,41 @@ td{
     font-size: 25px;
 }
 
-.footer div{
+
+
+.footer .contact_container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    width: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: antiquewhite; */
 }
 
-.footer div a{
+.footer .contact_container a{
+    text-decoration: none;
+    color: gold;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.footer .contact_container a i{
+    margin-right: 3px;
+}
+
+.footer .media_social_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .media_social_container a{
     font-size: 35px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: black;
 }
 
 .footer .copy_right{
